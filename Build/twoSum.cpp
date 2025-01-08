@@ -8,7 +8,7 @@ bool ispossiblesoln(int arr[],int size,int mid,int sn){
             pagesum+=arr[i];// ai page gula 1st student ke dea hoice
         }
         else{
-            studentn++;
+            studentn++;   
             if(studentn > sn  || arr[i] > mid){
                 return false;
             } 
